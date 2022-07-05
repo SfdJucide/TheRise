@@ -1,0 +1,4 @@
+.idea/
+sfd_venv/
+__pycache__
+*.sqlite3
