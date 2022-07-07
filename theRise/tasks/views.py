@@ -1,6 +1,6 @@
 from django.shortcuts import render
 
-from models import Task
+from tasks.models import Task
 
 def tasks_list(request):
     context = {
