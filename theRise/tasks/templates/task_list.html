@@ -2,8 +2,10 @@
 <html>
     <body>
         jajjaja
-        {{tasks[0].name}}
-        {{tasks[0].status}}
-        {{tasks[0].rank}}
+        {% for task in  tasks%}
+            <p>{{task.name}}</p>
+            <p>{{task.status}}</p>
+            <p>{{task.rank}}</p>
+        {% endfor %}
     </body>
 </html>

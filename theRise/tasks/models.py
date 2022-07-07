@@ -19,3 +19,6 @@ class Task(models.Model):
     class Meta:
         verbose_name = 'Задача'
         verbose_name_plural = 'Задачи'
+
+    def __str__(self) -> str:
+        return self.name
