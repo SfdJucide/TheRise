@@ -2,10 +2,14 @@
 <html>
     <body>
         jajjaja
-        {% for task in  tasks%}
+        {% for task in tasks%}
             <p>{{task.name}}</p>
             <p>{{task.status}}</p>
             <p>{{task.rank}}</p>
         {% endfor %}
+        <form method="post">
+            {% csrf_token %}
+            {{ form.as_p }}
+        </form>
     </body>
 </html>
