@@ -1,12 +1,37 @@
+@import "reset.css";
 *{
-	background-color: red;
-}
-h1{
-	font-family: Roboto; 
-}
-a{
-	text-decoration: 0;
-	font-size: 18px;
-	font-family: Bell Gothic Std;
+	font-size: 24px;
+	font-family: Bell Gothic Std, sans-serif;
     font-style: normal;
+}
+
+.wrapper{
+	margin: 0 40px;
+	text-align: center;
+}
+
+header{
+	height: 120px;
+	display: block;
+	background-color: white;
+}
+
+h1{
+	font-family: Roboto, sans-serif;
+	font-size: 48px; 
+}
+
+ul.top_menu{
+	display: flex;
+	height: 80px;
+	align-items: center;
+}
+
+li.top_menu{
+	margin-right: 60px;
+
+}
+
+a{
+
 }
