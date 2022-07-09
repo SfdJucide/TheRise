@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'Bell Gothic Std';
+    src: url('BellGothicStd-Bold.eot');
+    src: local('Bell Gothic Std Bold'), local('BellGothicStd-Bold'),
+        url('BellGothicStd-Bold.eot?#iefix') format('embedded-opentype'),
+        url('BellGothicStd-Bold.woff2') format('woff2'),
+        url('BellGothicStd-Bold.woff') format('woff'),
+        url('BellGothicStd-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bell Gothic Std';
+    src: url('BellGothicStd-Light.eot');
+    src: local('Bell Gothic Std Light'), local('BellGothicStd-Light'),
+        url('BellGothicStd-Light.eot?#iefix') format('embedded-opentype'),
+        url('BellGothicStd-Light.woff2') format('woff2'),
+        url('BellGothicStd-Light.woff') format('woff'),
+        url('BellGothicStd-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bell Gothic Std';
+    src: url('BellGothicStd-Black.eot');
+    src: local('Bell Gothic Std Black'), local('BellGothicStd-Black'),
+        url('BellGothicStd-Black.eot?#iefix') format('embedded-opentype'),
+        url('BellGothicStd-Black.woff2') format('woff2'),
+        url('BellGothicStd-Black.woff') format('woff'),
+        url('BellGothicStd-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
