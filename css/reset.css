@@ -11,7 +11,6 @@ h2,
 h3,
 h4,
 p,
-a,
 ul[class],
 ol[class],
 li,
@@ -40,4 +39,11 @@ ol[class] {
 img {
   max-width: 100%;
   display: block;
+}
+
+/* Сброс стилей для ссылок */
+a,
+a:visited {
+	text-decoration: none;
+	color: black;
 }
