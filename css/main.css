@@ -29,7 +29,7 @@ ul.top_menu{
 }
 
 li.top_menu{
-	margin-right: 15%;
+	margin-right: 12%;
 	font-family: Roboto Condensed, sans-serif;
 }
 
@@ -57,7 +57,7 @@ a.logo:hover{
 }
 
 div.logo{
-	margin: 0 40px 0 30%;
+	margin: 0 40px 0 25%;
 }
 
 div.info{
