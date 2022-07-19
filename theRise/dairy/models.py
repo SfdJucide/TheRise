@@ -1,3 +1,11 @@
 from django.db import models
+from tasks.models import Task
 
-# Create your models here.
+
+class Weekday(models.Model):
+    big_task = models.ForeignKey(Task, on_delete=models.CASCADE)
+    percents = models.PositiveIntegerField(verbose_name='проценты')
+
+
+class Weekend(Weekday):
+    pass

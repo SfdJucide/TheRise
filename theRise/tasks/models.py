@@ -13,6 +13,7 @@ class Task(models.Model):
         __empty__ = 'Выберите насколько важна задача'
 
     name = models.CharField(max_length=60, verbose_name='Название', db_index=True)
+    description = models.TextField(max_length=128, blank=True, null=True)
     status = models.IntegerField(choices=Statuses.choices, default=Statuses.NOT_STARTED)
     rank = models.IntegerField(choices=Ranks.choices)
 
